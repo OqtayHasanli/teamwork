@@ -73,4 +73,14 @@
 }
 #courses .topmain .cards .card .inside .cardbottom p:hover {
   color: red;
+}
+
+#premiumMembership {
+  background-color: #3498db;
+}
+#premiumMembership .container-membership {
+  max-width: 1260px;
+}
+#premiumMembership .container-membership .paragraphPremium {
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
