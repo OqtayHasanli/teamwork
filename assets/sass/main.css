@@ -5,11 +5,39 @@
 
 #courses {
   width: 100%;
-  min-height: 150vh;
+  min-height: 170vh;
   background-color: black;
   display: flex;
   justify-content: center;
   font-family: "Poppins", sans-serif;
+  flex-direction: column;
+  align-items: center;
+}
+#courses .topmain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  max-width: 1240px;
+}
+#courses .topmain button {
+  margin-top: 30px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  display: flex;
+  background-color: #3195ff;
+  height: 45px;
+  font-weight: 600;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#courses .topmain .grid {
+  display: grid !important;
+  grid-template-columns: auto auto auto !important;
 }
 #courses .topmain h1 {
   color: white;
@@ -21,6 +49,10 @@
   font-size: 36px;
   color: #3195ff;
   line-height: 43.2px;
+}
+#courses .topmain .cards {
+  display: flex;
+  gap: 40px;
 }
 #courses .topmain .cards .card {
   height: 221px;
@@ -37,7 +69,8 @@
   width: 60px;
   height: 54px;
   position: absolute;
-  right: 200px;
+  right: 10px;
+  top: 10px;
 }
 #courses .topmain .cards .card .inside {
   display: flex;
@@ -73,4 +106,15 @@
 }
 #courses .topmain .cards .card .inside .cardbottom p:hover {
   color: red;
+}
+
+@media only screen and (max-width: 1260px) {
+  #courses .topmain .grid {
+    grid-template-columns: auto auto !important;
+  }
+}
+@media only screen and (max-width: 850px) {
+  #courses .topmain .grid {
+    grid-template-columns: auto !important;
+  }
 }/*# sourceMappingURL=main.css.map */
