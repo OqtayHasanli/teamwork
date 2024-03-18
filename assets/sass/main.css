@@ -25,6 +25,37 @@
 #premiumMembership .container-membership {
   max-width: 1260px;
 }
-#premiumMembership .container-membership .paragraphPremium {
+#premiumMembership .paragraphPremium {
   color: #ffffff;
+}
+#premiumMembership .Payments {
+  display: flex;
+  justify-content: baseline;
+}
+#premiumMembership .Payments .single-course {
+  width: 33%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+#premiumMembership .Payments .monthly {
+  width: 33%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+}
+#premiumMembership .Payments .yearly {
+  width: 33%;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
 }/*# sourceMappingURL=main.css.map */

@@ -2,8 +2,39 @@
   background-color: #3498db;
   .container-membership {
     max-width: 1260px;
-    .paragraphPremium{
-        color: #ffffff;
+  }
+  .paragraphPremium {
+    color: #ffffff;
+  }
+  .Payments {
+    display: flex;
+    justify-content: baseline;
+    .single-course {
+      width: 33%;
+      border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 40px;
+    }
+    .monthly {
+      width: 33%;
+      border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 40px;
+    }
+    .yearly {
+      width: 33%;
+      border: 2px solid black;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 40px;
     }
   }
 }
