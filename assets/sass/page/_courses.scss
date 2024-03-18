@@ -1,18 +1,100 @@
-#courses{
+#courses {
     width: 100%;
     min-height: 150vh;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
 
-    .topmain{
-        h1{color:white ;
+
+    .topmain {
+        h1 {
+            color: white;
             font-size: 36px;
             font-family: "Poppins", sans-serif;
-            span{
+            margin-top: 91px;
+
+            span {
                 font-size: 36px;
-                color:#3195ff ;
+                color: #3195ff;
                 line-height: 43.2px;
+
+
+            }
+        }
+
+        .cards {
+            .card {
+                height: 221px;
+                width: 385px;
+                border: solid rgba(183, 182, 182, 0.11) 1px;
+                border-radius: 5px;
+                background-color: #222222;
+                // padding: 50px 0 0 20px;
+                display: flex;
+                align-items: end;
+                justify-content: center;
+                position: relative;
                 
+                    
+                    img{
+                        width:60px ;
+                        height: 54px;
+                        position: absolute;
+                        right: 200px;
+
+                    }
                 
+
+                .inside {
+                    display: flex;
+                    flex-direction: column;
+                    width: 340px;
+                    height: 180px;
+                    gap: 10px;
+                    // background-color: red;
+                    
+
+                    .all {
+                        color: #3195ff;
+                        font-size: 18px;
+
+
+                    }
+
+                    .next {
+                        font-size: 18px;
+                        color: white;
+                        font-weight: 650;
+
+                    }
+
+                    .property {
+                        color: white;
+                        font-size: 18px;
+
+                    }
+
+                    .cardbottom {
+                        display: flex;
+                        gap: 20px;
+                        margin-top: 15px;
+                        i {
+                            color: #3195ff;
+                            font-size: 26px;
+
+                        }
+
+                        p {
+                            color: #3195ff;
+
+                            &:hover {
+                                color: red;
+                            }
+
+                        }
+                    }
+                }
             }
         }
     }
