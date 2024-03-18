@@ -17,4 +17,14 @@
   font-size: 36px;
   color: #3195ff;
   line-height: 43.2px;
+}
+
+#premiumMembership {
+  background-color: #3498db;
+}
+#premiumMembership .container-membership {
+  max-width: 1260px;
+}
+#premiumMembership .container-membership .paragraphPremium {
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
