@@ -120,7 +120,10 @@
 }
 
 #premiumMembership {
+  font-family: "Poppins", sans-serif;
   background-color: #3498db;
+  padding-top: 50px;
+  padding-bottom: 100px;
 }
 #premiumMembership .container-membership {
   max-width: 1260px;
@@ -133,11 +136,25 @@
 #premiumMembership .container-membership ul li {
   margin: 8px 0;
 }
+#premiumMembership .container-membership ul li span {
+  font-size: 18px;
+}
 #premiumMembership .paragraphPremium {
+  padding: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #ffffff;
+}
+#premiumMembership .paragraphPremium h2 {
+  font-size: 36px;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+#premiumMembership .paragraphPremium p {
+  font-size: 18px;
+  margin-bottom: 16px;
+  color: #ecf0f1;
 }
 #premiumMembership .Payments {
   display: flex;
@@ -149,34 +166,154 @@
   height: -moz-max-content;
   height: max-content;
   width: 33%;
-  border: 2px solid black;
+  border: none;
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 40px;
+}
+#premiumMembership .Payments .single-course button {
+  background-color: #0072ef;
+  color: #ffffff;
+  margin-top: 16px;
+  padding: 12px 40px;
+  font-size: 22px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+}
+#premiumMembership .Payments .single-course .list-elements-single {
+  text-align: left;
+}
+#premiumMembership .Payments .single-course .list-elements-single i {
+  color: #0072ef;
+  margin-right: 5px;
+}
+#premiumMembership .Payments .single-course .list-elements-single span {
+  color: #ffffff;
+}
+#premiumMembership .Payments .single-course h4 {
+  color: #0072ef;
+  font-size: 24px;
+}
+#premiumMembership .Payments .single-course h2 {
+  margin-top: 16px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 36px;
+}
+#premiumMembership .Payments .single-course p {
+  color: #3498db;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
 }
 #premiumMembership .Payments .monthly {
   background-color: #ffffff;
   height: -moz-max-content;
   height: max-content;
   width: 33%;
-  border: 2px solid black;
+  border: none;
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 40px;
 }
+#premiumMembership .Payments .monthly button {
+  background-color: #0072ef;
+  color: #ffffff;
+  margin-top: 16px;
+  padding: 12px 40px;
+  font-size: 22px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+}
+#premiumMembership .Payments .monthly .list-elements-single i {
+  color: #0072ef;
+  margin-right: 5px;
+}
+#premiumMembership .Payments .monthly .list-elements-single span {
+  color: #2c3e50;
+}
+#premiumMembership .Payments .monthly h4 {
+  color: #0072ef;
+  font-size: 24px;
+}
+#premiumMembership .Payments .monthly h2 {
+  margin-top: 16px;
+  margin-bottom: 10px;
+  color: #34495e;
+  font-size: 36px;
+}
+#premiumMembership .Payments .monthly p {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
 #premiumMembership .Payments .yearly {
   background-color: #1e1e1e;
   height: -moz-max-content;
   height: max-content;
   width: 33%;
-  border: 2px solid black;
+  border: none;
+  border-radius: 4px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   padding: 40px;
+}
+#premiumMembership .Payments .yearly button {
+  background-color: #0072ef;
+  color: #ffffff;
+  margin-top: 16px;
+  padding: 12px 40px;
+  font-size: 22px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+}
+#premiumMembership .Payments .yearly .list-elements-single i {
+  color: #0072ef;
+  margin-right: 5px;
+}
+#premiumMembership .Payments .yearly .list-elements-single span {
+  color: #ffffff;
+}
+#premiumMembership .Payments .yearly h4 {
+  color: #0072ef;
+  font-size: 24px;
+}
+#premiumMembership .Payments .yearly h2 {
+  margin-top: 16px;
+  margin-bottom: 10px;
+  color: #ffffff;
+  font-size: 36px;
+}
+#premiumMembership .Payments .yearly p {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+@media only screen and (max-width: 992px) {
+  .Payments {
+    flex-direction: column;
+  }
+  .single-course {
+    width: 50% !important;
+  }
+  .monthly {
+    width: 50% !important;
+  }
+  .yearly {
+    width: 50% !important;
+  }
 }/*# sourceMappingURL=main.css.map */
